@@ -1,7 +1,7 @@
 
 void hcconfig();
 
-void hcrun(int counter);
+void hcrun(int distance);
 
 int measurment();
 
