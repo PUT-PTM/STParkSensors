@@ -13,7 +13,7 @@
 #include "stm32f4_discovery.h"
 #include "hc-sr04.h"
 int micros=0;
-int distance=250;
+int distance;
 
 void TIM2_IRQHandler(void){
 	if(TIM_GetITStatus(TIM2,TIM_IT_Update)!=RESET){
